@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Brittany+Signature&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ortica+Linear&display=swap");
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-cormorant-garamond: "Cormorant Garamond", serif;
+  --font-brittany-signature: "Brittany Signature", cursive;
+  --font-ortica-linear: "Ortica Linear", sans-serif;
+
+  /* color variables */
+  --color-primary: #a47149;
+  --color-secondary: #4b5c3b;
+  --color-black: #232325;
+  --color-stroke: #dddddd;
+  --color-hover: #a47149;
+  --color-red: #FF0000;
+  --color-fade: #C0A2A2;
+}
+
+/* Enhanced smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Account for fixed navbar */
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-hover);
+}
+
+/* Scroll-triggered animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animation classes */
+.animate-on-scroll {
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.animate-on-scroll.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-on-scroll.animate-fade-in-left {
+  animation: fadeInLeft 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-on-scroll.animate-fade-in-right {
+  animation: fadeInRight 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-on-scroll.animate-scale-in {
+  animation: scaleIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Staggered animations */
+.animate-on-scroll.stagger-1 { animation-delay: 0.1s; }
+.animate-on-scroll.stagger-2 { animation-delay: 0.2s; }
+.animate-on-scroll.stagger-3 { animation-delay: 0.3s; }
+.animate-on-scroll.stagger-4 { animation-delay: 0.4s; }
+.animate-on-scroll.stagger-5 { animation-delay: 0.5s; }
+
+/* Smooth hover transitions */
+.smooth-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.smooth-hover:hover {
+  transform: translateY(-2px);
+}
+
+/* Scroll progress indicator */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  z-index: 9999;
+  transition: width 0.1s ease;
+}
+
+@font-face {
+  font-family: 'Safira March Personal Use';
+  src: url('./fonts/SafiraMarchPersonalUse.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Then add to your CSS variables if you want: */
+:root {
+  --font-safira-march: 'Safira March Personal Use', cursive;
+}
