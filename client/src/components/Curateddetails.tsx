@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import ktmlogo from "../assets/ktmlogo.png";
 import Bojusimg from "../assets/Bojusimg.png";

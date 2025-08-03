@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import phakdingimg from "../assets/phakdingimg.png";
 import { assets } from "../assets/assets";

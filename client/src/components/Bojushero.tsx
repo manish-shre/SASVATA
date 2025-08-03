@@ -1,5 +1,3 @@
-
-import React from "react";
 import { assets } from "../assets/assets";
 import Navbar from "./Navbar";
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
