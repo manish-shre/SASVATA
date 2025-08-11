@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         {/* Right: Social Icons and Copyright */}
-        <div ref={socialRef} className="animate-on-scroll flex flex-col items-center lg:items-end min-w-[80px] xs:min-w-[100px] flex-1 justify-center mt-4 lg:mt-0 w-full pr-0 lg:pr-38">
+        <div ref={socialRef} className="animate-on-scroll flex flex-col items-center lg:items-end min-w-[80px] xs:min-w-[100px] flex-1 justify-center mt-4 mb-4 lg:mt-0 w-full pr-0 lg:pr-38">
           <div className="flex space-x-3 xs:space-x-4 mb-3 justify-center lg:justify-end">
             <a
               href="https://www.instagram.com"
