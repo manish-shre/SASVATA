@@ -35,6 +35,7 @@ import everestlodgeimg from "./everestlodgeimg.png"
 import chitwanbg from "./chitwanbg.png"
 import tiger from "./tiger.png"
 import rhyno from "./rhyno.png"
+import font from "./font.png"
 
 export const assets = {
     logo,
@@ -73,4 +74,5 @@ export const assets = {
     chitwanbg,
     tiger,
     rhyno,
+    font,
 } 

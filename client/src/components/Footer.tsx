@@ -3,7 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import blacklogo from "../assets/blacklogo.png";
-import footerbg from "../assets/footerbg.png";
+i
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const Footer: React.FC = () => {
@@ -16,12 +16,7 @@ const Footer: React.FC = () => {
       {/* Top border line */}
       <div className="absolute h-[1px] bg-[#333333] w-[92%] mx-auto left-0 right-0" />
       {/* Footer background image: centered on mobile/tablet, right on desktop */}
-      <img
-        src={footerbg}
-        alt="Footer background"
-        className="absolute bottom-0 left-1/2 right-auto translate-x-[-50%] lg:left-auto lg:right-8 lg:translate-x-0 w-5/6 h-40 xs:h-50 sm:h-100 object-contain pointer-events-none select-none z-0"
-        style={{ maxWidth: '600px', maxHeight: '220px' }}
-      />
+ 
       <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 xs:gap-10 lg:gap-12 w-full max-w-[98%] mx-auto pt-8 xs:pt-10 pb-28 lg:pb-0">
         {/* Left: Logo, Address, Contact */}
         <div className="flex flex-col items-center lg:items-start min-w-[160px] xs:min-w-[200px] lg:justify-center flex-1 gap-4 xs:gap-6 lg:gap-10 w-full">

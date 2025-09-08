@@ -32,7 +32,7 @@ const Upcommingprojects: React.FC = () => {
         <h1
           ref={titleRef}
           className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal mb-12 md:mb-25 lg:mb-25"
-          style={{ fontFamily: "'Brittany Signature', cursive" }}
+          style={{ fontFamily: "'Bellefair', serif" }}
         >
           Upcoming Projects
         </h1>
@@ -59,7 +59,7 @@ const Upcommingprojects: React.FC = () => {
           </div>
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-red text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-[#000] text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Syangboche, 3870 meters ASL
           </div>

@@ -47,7 +47,6 @@ const Bojusdetails = () => {
         </div>
       </div>
 
-
       {/* Second secttion */}
       <div className="max-w-[91%] mx-auto flex flex-col-reverse lg:flex-row items-center gap-8 sm:gap-8 md:gap-16 lg:gap-32 xl:gap-60 px-2 sm:px-4 md:px-6 lg:px-8 w-full py-0 lg:pt-0">
         <div className="flex-1 flex justify-center items-center">
