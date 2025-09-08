@@ -5,7 +5,7 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const HeroSection: React.FC = () => {
   const logoRef = useScrollAnimation<HTMLImageElement>('scale-in', 0.2);
-  const titleRef = useScrollAnimation<HTMLHeadingElement>('fade-in-up', 0.4);
+  const titleRef = useScrollAnimation<HTMLImageElement>('fade-in-up', 0.4);
 
   return (
     <div className="w-full min-h-screen flex items-center justify-center relative overflow-hidden">
@@ -29,18 +29,12 @@ const HeroSection: React.FC = () => {
           alt="Sasvata Logo"
           className="animate-on-scroll w-auto h-24 xs:w-26 xs:h-26 sm:w-40 sm:h-40 md:w-auto md:h-42 lg:w-auto lg:h-44 xl:w-auto xl:h-52 max-w-full mb-4 md:mb-6 smooth-hover"
         />
-        <h1
+        <img
           ref={titleRef}
-          style={{ fontFamily: 'Ortica Linear, sans-serif' }}
-          className="animate-on-scroll font-medium text-white text-5xl xs:text-3xl sm:text-4xl md:text-7xl lg:text-6xl xl:text-7xl 2xl:text-8xl leading-tight md:leading-tight lg:leading-[1.1] drop-shadow-md"
-        >
-         <img
-          ref={logoRef}
           src={assets.font}
-          alt="Sasvata Logo"
+          alt="Sasvata Title"
           className="animate-on-scroll w-auto h-24 xs:w-26 xs:h-26 sm:w-40 sm:h-40 md:w-auto md:h-42 lg:w-auto lg:h-44 xl:w-auto xl:h-52 max-w-full mb-4 md:mb-6 smooth-hover"
         />
-        </h1>
       </div>
     </div>
   )

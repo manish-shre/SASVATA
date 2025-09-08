@@ -3,7 +3,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import blacklogo from "../assets/blacklogo.png";
-i
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const Footer: React.FC = () => {
