@@ -20,10 +20,10 @@ const About: React.FC = () => {
       <div className="text-center w-full">
         <h1
           ref={titleRef}
-          className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal my-12 md:mb-25 lg:mb-25"
-          style={{ fontFamily: "'Brittany Signature', cursive" }}
+          className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal my-12 md:mb-25 lg:mb-25 text-[#656565]"
+          style={{ fontFamily: "'Inter', sans-serif" }}
         >
-          About Us
+          ABOUT US
         </h1>
       </div>
 

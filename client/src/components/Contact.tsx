@@ -16,10 +16,10 @@ const Contact: React.FC = () => {
       <div className="text-center w-full">
         <h1
           ref={titleRef}
-          className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal my-12 sm:my-10 md:my-25 lg:my-25"
-          style={{ fontFamily: "'Brittany Signature', cursive" }}
+          className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal my-12 sm:my-10 md:my-25 lg:my-25 text-[#656565]"
+          style={{  fontFamily: "'Bellefair', serif" }}
         >
-          Connect with Us
+          CONNECT WITH US
         </h1>
       </div>
 
@@ -40,22 +40,22 @@ const Contact: React.FC = () => {
             className="text-[20px] md:text-4xl font-regular mb-4 sm:mb-6 md:mb-8 whitespace-nowrap"
             style={{ fontFamily: "'Brittany Signature', cursive" }}
           >
-            SASVATA
+          
           </div>
           <div
             className="font-medium text-black text-lg text-[16px] md:text-[28px] lg:text-[26px] mb-4 sm:mb-6"
             style={{ fontFamily: "'Inter', sans-serif" }}
           >
-            Two paths diverge where dreams take flight, <br></br>
+            "Two paths diverge where dreams take flight, <br></br>
             One holds the spark that shapes the night.<br></br> 
             We've walked its ways, felt moments rare, <br></br>
             Unique, alive, beyond compare.<br></br>
             Come join the journey, take our hand,<br></br>
-            For lifetimes' wonders, bold and grand.<br></br>
+            For lifetimes' wonders, bold and grand. " <br></br>
           </div>
           <form className="mt-4 sm:mt-6">
             <label
-              className="block text-black font-semibold mb-2 text-base sm:text-lg md:text-[24px]"
+              className="block text-black font-medium mb-2 text-base sm:text-lg md:text-[24px]"
               htmlFor="email"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
             />
             <button
               type="submit"
-              className="w-full bg-white border border-gray-300 rounded-full py-2 sm:py-3 text-[#232325] font-medium text-base sm:text-lg md:text-[24px] shadow-sm hover:bg-green-50 transition-all duration-300 transform hover:scale-105 smooth-hover"
+              className="w-full bg-white border border-gray-300 rounded-full py-2 sm:py-3 text-[#232325] font-medium text-[14px] sm:text-[14px] md:text-[18px] shadow-sm hover:bg-green-50 transition-all duration-300 transform hover:scale-105 smooth-hover"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
               We Will Reach Out To You

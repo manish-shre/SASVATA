@@ -31,10 +31,10 @@ const Upcommingprojects: React.FC = () => {
       <div className="text-center w-full">
         <h1
           ref={titleRef}
-          className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal mb-12 md:mb-25 lg:mb-25"
+          className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-normal mb-12 md:mb-25 lg:mb-25 text-[#656565]"
           style={{ fontFamily: "'Bellefair', serif" }}
         >
-          Upcoming Projects
+          UPCOMING PROJECTS
         </h1>
       </div>
 
@@ -52,7 +52,7 @@ const Upcommingprojects: React.FC = () => {
             </div>
           </Link>
           <div
-            style={{ fontFamily: "Safira March Personal Use" }}
+            style={{ fontFamily: "'Bellefair', serif"}}
             className="text-[12px] sm:text-[14px] md:text-[22px] lg:text-[22px] font-regular my-2 sm:my-4 md:my-6 whitespace-nowrap"
           >
             SYANGBOCHE REST HOUSE
@@ -80,7 +80,7 @@ const Upcommingprojects: React.FC = () => {
             that captivates and inspires.
           </div>
           <Link to="/bojus" className="block">
-            <div className="font-medium text-lg sm:text-xl md:text-2xl lg:text-[24px] text-black cursor-pointer inline-flex items-center gap-1 sm:gap-2 group pt-2 smooth-hover">
+            <div className="font-medium text-[12px] sm:text-xl md:text-2xl lg:text-[16px] text-black cursor-pointer inline-flex items-center gap-1 sm:gap-2 group pt-2 smooth-hover">
               See More
               <span className="text-lg sm:text-xl md:text-2xl lg:text-[24px] font-bold group-hover:translate-x-1 transition-transform">
                 &rarr;
@@ -129,7 +129,7 @@ const Upcommingprojects: React.FC = () => {
           </div>
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-red text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Phakding, 2610 Meters ASL
           </div>
@@ -145,7 +145,7 @@ const Upcommingprojects: React.FC = () => {
             majestic Himalayan backdrop.
           </div>
           <Link to="/Everestlodge" className="block">
-            <div className="font-medium text-lg sm:text-xl md:text-2xl lg:text-[24px] text-black cursor-pointer inline-flex items-center gap-1 sm:gap-2 group pt-2 smooth-hover">
+          <div className="font-medium text-[12px] sm:text-xl md:text-2xl lg:text-[16px] text-black cursor-pointer inline-flex items-center gap-1 sm:gap-2 group pt-2 smooth-hover">
               See More
               <span className="text-lg sm:text-xl md:text-2xl lg:text-[24px] font-bold group-hover:translate-x-1 transition-transform">
                 &rarr;
@@ -176,7 +176,7 @@ const Upcommingprojects: React.FC = () => {
           </div>
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-red text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Kathmandu Valley, 1335 Meters ASL
           </div>
@@ -193,7 +193,7 @@ const Upcommingprojects: React.FC = () => {
             adventures.
           </div>
           <Link to="/Curatedexperiences" className="block">
-            <div className="font-medium text-lg sm:text-xl md:text-2xl lg:text-[24px] text-black cursor-pointer inline-flex items-center gap-1 sm:gap-2 group pt-2 smooth-hover">
+          <div className="font-medium text-[12px] sm:text-xl md:text-2xl lg:text-[16px] text-black cursor-pointer inline-flex items-center gap-1 sm:gap-2 group pt-2 smooth-hover">
               See More
               <span className="text-lg sm:text-xl md:text-2xl lg:text-[24px] font-bold group-hover:translate-x-1 transition-transform">
                 &rarr;
@@ -242,7 +242,7 @@ const Upcommingprojects: React.FC = () => {
           </div>
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-red text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Phakding, 2610 Meters ASL
           </div>
@@ -258,7 +258,7 @@ const Upcommingprojects: React.FC = () => {
             and the chirping of birds.
           </div>
           <Link to="/chitwan" className="block">
-            <div className="font-medium text-lg sm:text-xl md:text-2xl lg:text-[24px] text-black cursor-pointer inline-flex items-center gap-1 sm:gap-2 group pt-2 smooth-hover">
+          <div className="font-medium text-[12px] sm:text-xl md:text-2xl lg:text-[16px] text-black cursor-pointer inline-flex items-center gap-1 sm:gap-2 group pt-2 smooth-hover">
               See More
               <span className="text-lg sm:text-xl md:text-2xl lg:text-[24px] font-bold group-hover:translate-x-1 transition-transform">
                 &rarr;
