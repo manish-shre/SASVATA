@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
   const socialRef = useScrollAnimation<HTMLDivElement>('fade-in-up', 0.3);
 
   return (
-    <footer className="relative pb-6 px-2 xs:px-4 sm:px-6 md:px-16 lg:px-24 text-black overflow-hidden font-inter w-full max-w-full mt-12 md:mt-25 lg:mt-25">
+    <footer className="relative md:pb-4 px-2 xs:px-4 sm:px-6 md:px-16 lg:px-24 text-black overflow-hidden font-inter w-full max-w-full mt-12 md:mt-25 lg:mt-25">
       {/* Top border line */}
       <div className="absolute h-[1px] bg-[#333333] w-[92%] mx-auto left-0 right-0" />
       {/* Footer background image: centered on mobile/tablet, right on desktop */}
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
               </p>
             </div>
             {/* Contact */}
-            <div className="min-w-[300px] xs:min-w-[300px] text-center lg:text-left">
+            <div className="min-w-[350px] xs:min-w-[300px] text-center lg:text-left">
             <h3 className="font-medium text-[20px] xs:text-[22px] sm:text-[20px] mb-2">
                 Contact:
               </h3>

@@ -9,22 +9,23 @@ const Contact: React.FC = () => {
 
   return (
     <div
-      id="contact"
-      className="w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 lg:px-0 "
-      style={{ fontFamily: "'Inter', sans-serif" }}
-    >
-      <div className="text-center w-full">
-        <h1
-          ref={titleRef}
-          className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal my-12 sm:my-10 md:my-25 lg:my-25 text-[#656565]"
-          style={{  fontFamily: "'Bellefair', serif" }}
-        >
-          CONNECT WITH US
-        </h1>
-      </div>
+    id="contact"
+    className="w-full min-h-screen flex flex-col items-center justify-center py-0 "
+    style={{ fontFamily: "'Inter', sans-serif" }}
+  >
+    <div className="text-center w-full">
+      <h1
+        ref={titleRef}
+        className="animate-on-scroll text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-normal mb-12 md:my-25 lg:my-25 text-[#656565]"
+        style={{ fontFamily: "'Bellefair', serif" }}
+      >
+        CONTACT WITH US
+      </h1>
+    </div>
+
 
       {/* Connect Us sections */}
-      <div className="max-w-[91%] mx-auto flex flex-col lg:flex-row items-center gap-6 sm:gap-6 md:gap-10 lg:gap-16 xl:gap-24 px-2 sm:px-4 md:px-6 lg:px-8 w-full ">
+      <div className="max-w-[91%] mx-auto flex flex-col lg:flex-row items-center gap-4 sm:gap-4 md:gap-6 lg:gap-16 xl:gap-24 px-2 sm:px-4 md:px-6 lg:px-8 w-full ">
       <div className="flex-1 flex justify-center items-center">
           <img
             ref={imageRef}

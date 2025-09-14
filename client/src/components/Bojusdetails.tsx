@@ -18,14 +18,14 @@ const Bojusdetails = () => {
               <img
                 src={assets.Bojus}
                 alt="Bojus Logo"
-                className="h-16 sm:h-20 md:h-26 lg:h-25 w-auto object-contain mb-4 smooth-hover"
+                className="h-16 sm:h-16 md:h-26 lg:h-25 w-auto object-contain mb-4 smooth-hover"
               />
             </div>
           </Link>
        
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-medium mb-2 sm:mb-4 text-[#000] text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             A Sanctuary of rest and rejuvenation on the iconic Everest Trail
           </div>
@@ -71,7 +71,7 @@ const Bojusdetails = () => {
               <img src={assets.icon1} alt="Amenities Icon" className="w-6 h-6 object-contain" />
             </span>
             <span className="text-base">
-              <span className="font-bold">Therapeutic Hot Springs: </span>
+              <span className="font-medium">Therapeutic Hot Springs: </span>
               <span className="font-normal text-sm sm:text-base md:text-lg lg:text-lg">Immerse in soothing, mineral-rich waters to revitalize weary muscles, preparing you for the adventures ahead.</span>
             </span>
           </div>
@@ -82,7 +82,7 @@ const Bojusdetails = () => {
               <img src={assets.icon2} alt="Amenities Icon" className="w-6 h-6 object-contain" />
             </span>
             <span className="text-base">
-              <span className="font-bold">Cozy Fireplace & Foot Massage: </span>
+              <span className="font-medium">Cozy Fireplace & Foot Massage: </span>
               <span className="font-normal text-sm sm:text-base md:text-lg lg:text-lg"> Unwind by a crackling fire as expert hands restore your inner vitality with a rejuvenating foot massage, a moment of pure tranquility.</span>
             </span>
           </div>
@@ -93,7 +93,7 @@ const Bojusdetails = () => {
               <img src={assets.icon3} alt="Amenities Icon" className="w-6 h-6 object-contain" />
             </span>
             <span className="text-base">
-              <span className="font-bold">Nutritious Beverages & Sherpa Fusion Desserts: </span>
+              <span className="font-medium">Nutritious Beverages & Sherpa Fusion Desserts: </span>
               <span className="font-normal text-sm sm:text-base md:text-lg lg:text-lg"> Savor artfully crafted, nutrient-rich drinks and exquisite Sherpa-inspired desserts, designed to re-energize both body and soul.</span>
             </span>
           </div>

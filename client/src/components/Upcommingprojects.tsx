@@ -53,13 +53,13 @@ const Upcommingprojects: React.FC = () => {
           </Link>
           <div
             style={{ fontFamily: "'Bellefair', serif"}}
-            className="text-[12px] sm:text-[14px] md:text-[22px] lg:text-[22px] font-regular my-2 sm:my-4 md:my-6 whitespace-nowrap"
+            className="text-[24px] sm:text-[26px] md:text-[34px] lg:text-[42px] font-regular my-1 sm:my-1 md:my-2 whitespace-nowrap"
           >
             SYANGBOCHE REST HOUSE
           </div>
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-[#000] text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-medium mb-2 sm:mb-4 text-[#000] text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Syangboche, 3870 meters ASL
           </div>
@@ -122,14 +122,14 @@ const Upcommingprojects: React.FC = () => {
             </div>
           </Link>
           <div
-            style={{ fontFamily: "Safira March Personal Use" }}
-            className="text-[12px] sm:text-[14px] md:text-[22px] lg:text-[22px] font-regular my-2 sm:my-4 md:my-6 whitespace-nowrap"
+            style={{ fontFamily: "'Bellefair', serif"}}
+            className="text-[24px] sm:text-[26px] md:text-[34px] lg:text-[42px] font-regular my-1 sm:my-1 md:my-2 whitespace-nowrap"
           >
             SASVATA EVEREST LODGE
           </div>
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-medium mb-2 sm:mb-4 text-[#000] text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Phakding, 2610 Meters ASL
           </div>
@@ -169,14 +169,14 @@ const Upcommingprojects: React.FC = () => {
             </div>
           </Link>
           <div
-            style={{ fontFamily: "Safira March Personal Use" }}
-            className="text-[12px] sm:text-[14px] md:text-[22px] lg:text-[22px] font-regular my-2 sm:my-4 md:my-6 whitespace-nowrap"
+            style={{ fontFamily: "'Bellefair', serif"}}
+            className="text-[24px] sm:text-[26px] md:text-[34px] lg:text-[42px] font-regular my-1 sm:my-1 md:my-2 whitespace-nowrap"
           >
             SASVATA CURATED EXPERIENCES
           </div>
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-medium mb-2 sm:mb-4 text-[#000] text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Kathmandu Valley, 1335 Meters ASL
           </div>
@@ -235,14 +235,14 @@ const Upcommingprojects: React.FC = () => {
             </div>
           </Link>
           <div
-            style={{ fontFamily: "Safira March Personal Use" }}
-            className="text-[12px] sm:text-[14px] md:text-[22px] lg:text-[22px] font-regular my-2 sm:my-4 md:my-6 whitespace-nowrap"
+            style={{ fontFamily: "'Bellefair', serif"}}
+            className="text-[24px] sm:text-[26px] md:text-[34px] lg:text-[42px] font-regular my-1 sm:my-1 md:my-2 whitespace-nowrap"
           >
             SASVATA WILDLIFE RESORT
           </div>
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-medium mb-2 sm:mb-4 text-[#000] text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Phakding, 2610 Meters ASL
           </div>

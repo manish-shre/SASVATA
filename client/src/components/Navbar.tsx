@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HashLink } from 'react-router-hash-link';
+import { Facebook, WhatsApp, Instagram } from '@mui/icons-material';
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -35,7 +36,7 @@ const Navbar: React.FC = () => {
         </div>
         {/* Hamburger Icon (Mobile Only, right aligned) */}
         <button
-          className="md:hidden flex items-center focus:outline-none z-20 ml-auto smooth-hover"
+          className="md:hidden flex items-center focus:outline-none z-20 ml-auto smooth-hover text-[#161515]"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -55,38 +56,84 @@ const Navbar: React.FC = () => {
         </button>
         {/* Mobile Fullscreen Overlay Menu */}
         {menuOpen && (
-          <div className="fixed inset-0 bg-white/100 flex flex-col items-center justify-center gap-10 z-50 transition-all duration-500 ease-in-out">
+          <div className="fixed inset-0 bg-white/100 flex flex-col items-start justify-start px-8 pt-20 z-50 transition-all duration-500 ease-in-out">
             <button
-              className="absolute top-6 right-6 text-6xl text-red-800 focus:outline-none smooth-hover"
+              className="absolute top-6 right-6 text-5xl text-red-800 focus:outline-none smooth-hover"
               onClick={() => setMenuOpen(false)}
               aria-label="Close menu"
             >
               &times;
             </button>
-            <HashLink
-              smooth
-              to="/#projects"
-              className="text-3xl font-serif text-black hover:text-hover transition-all duration-300 transform hover:scale-110 smooth-hover"
-              onClick={() => setMenuOpen(false)}
-            >
-              Projects
-            </HashLink>
-            <HashLink
-              smooth
-              to="/#about"
-              className="text-3xl font-serif  text-black hover:text-hover transition-all duration-300 transform hover:scale-110 smooth-hover"
-              onClick={() => setMenuOpen(false)}
-            >
-              About
-            </HashLink>
-            <HashLink
-              smooth
-              to="/#contact"
-              className="text-3xl font-serif text-black hover:text-hover transition-all duration-300 transform hover:scale-110 smooth-hover"
-              onClick={() => setMenuOpen(false)}
-            >
-              Contact
-            </HashLink>
+            
+            {/* Main Navigation Links */}
+            <div className="w-full mb-8">
+              <HashLink
+                smooth
+                to="/"
+                className="block text-2xl font-medium text-green-500 mb-8 hover:text-green-600 transition-colors duration-300"
+                onClick={() => setMenuOpen(false)}
+              >
+                Home
+              </HashLink>
+              <HashLink
+                smooth
+                to="/#projects"
+                className="block text-2xl font-medium text-black mb-8 hover:text-gray-600 transition-colors duration-300"
+                onClick={() => setMenuOpen(false)}
+              >
+                Projects
+              </HashLink>
+              <HashLink
+                smooth
+                to="/#about"
+                className="block text-2xl font-medium text-black mb-8 hover:text-gray-600 transition-colors duration-300"
+                onClick={() => setMenuOpen(false)}
+              >
+                About
+              </HashLink>
+              <HashLink
+                smooth
+                to="/#contact"
+                className="block text-2xl font-medium text-black mb-8 hover:text-gray-600 transition-colors duration-300"
+                onClick={() => setMenuOpen(false)}
+              >
+                Contact
+              </HashLink>
+            </div>
+
+
+            {/* Social Media Icons */}
+            <div className="w-full flex justify-center mb-8">
+              <div className="flex space-x-6">
+                <a href="#" className="text-black hover:text-gray-600 transition-colors duration-300">
+                  <Facebook sx={{ fontSize: 32 }} />
+                </a>
+                <a href="#" className="text-black hover:text-gray-600 transition-colors duration-300">
+                  <WhatsApp sx={{ fontSize: 32 }} />
+                </a>
+                <a href="#" className="text-black hover:text-gray-600 transition-colors duration-300">
+                  <Instagram sx={{ fontSize: 32 }} />
+                </a>
+              </div>
+            </div>
+
+            {/* Separator Line */}
+            <div className="w-full h-px bg-gray-300 mb-8"></div>
+
+            {/* Legal and Policy Links */}
+            <div className="w-full">
+              <div className="flex flex-wrap justify-center gap-6 mb-4">
+                <a href="#" className="text-base font-medium text-black hover:text-gray-600 transition-colors duration-300">
+                  FAQs
+                </a>
+                <a href="#" className="text-base font-medium text-black hover:text-gray-600 transition-colors duration-300">
+                  Privacy Policy
+                </a>
+                <a href="#" className="text-base font-medium text-black hover:text-gray-600 transition-colors duration-300">
+                  Terms & Conditions
+                </a>
+              </div>
+            </div>
           </div>
         )}
       </div>

@@ -29,7 +29,7 @@ const Curateddetails = () => {
 
           <div
             style={{ fontFamily: "'Inter', sans-serif" }}
-            className="max-w-7xl font-semibold mb-2 sm:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl"
+            className="max-w-7xl font-medium mb-2 sm:mb-4 text-[#000] text-base sm:text-lg md:text-xl lg:text-2xl"
           >
             Sasvata Curated Experiences: Unveiling the Soul of Kathmandu Valley
           </div>
